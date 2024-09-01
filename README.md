@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+Certainly! Here's the updated README file with a section on future updates, including AI-generated images:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+# Walliai
 
-In the project directory, you can run:
+**Walliai** is a React application that allows users to search for beautiful wallpapers and manage their accounts with Firebase authentication. It supports both email/password login and Google Sign-In.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Email/Password Authentication**: Users can log in using their email and password.
+- **Google Sign-In**: Users can sign in with their Google accounts.
+- **Search Wallpapers**: Users can search for wallpapers using Pixabay and Pexels APIs.
+- **Email Verification**: Users are prompted to verify their email before accessing the application.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **React**: JavaScript library for building user interfaces.
+- **Firebase**: Provides authentication services and backend functionality.
+- **Material-UI**: React components for building the UI.
+- **Axios**: Promise-based HTTP client for making API requests.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Setup
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js and npm installed. [Install Node.js](https://nodejs.org/) if you haven't already.
+- A Firebase project with authentication enabled. [Set up Firebase](https://firebase.google.com/) and obtain your API keys.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the Repository**
 
-### `npm run eject`
+    ```bash
+    git clone https://github.com/blackXploit-404/wallpaper-hub.git
+    cd Walliai
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Install Dependencies**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    npm install
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Configure Firebase**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. **Run the Application**
 
-## Learn More
+    ```bash
+    npm start
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    The application will be available at `http://localhost:3000`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+- **Login**: Users can log in using their email/password or Google account.
+- **Search for Wallpapers**: Enter a search term in the input field and click the "Search" button to find wallpapers.
+- **View Results**: Wallpaper search results will be displayed in a grid format with download links.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Future Updates
 
-### Analyzing the Bundle Size
+- **AI-Generated Images**: We plan to integrate AI-generated image features to provide unique and customized wallpaper options based on user preferences and trends.
+- **Enhanced User Profile**: Additional features for user profile management, including profile image updates and customization options.
+- **Improved Search Functionality**: Adding advanced search filters and saving favorite wallpapers.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributing
 
-### Making a Progressive Web App
+Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
