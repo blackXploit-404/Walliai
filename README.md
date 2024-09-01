@@ -1,7 +1,3 @@
-Certainly! Here's the updated README file with a section on future updates, including AI-generated images:
-
----
-
 # Walliai
 
 **Walliai** is a React application that allows users to search for beautiful wallpapers and manage their accounts with Firebase authentication. It supports both email/password login and Google Sign-In.
