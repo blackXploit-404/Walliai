@@ -28,7 +28,7 @@
 1. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/blackXploit-404/wallpaper-hub.git
+    git clone https://github.com/blackXploit-404/Walliai.git
     cd Walliai
     ```
 
